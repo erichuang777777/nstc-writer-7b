@@ -1,5 +1,7 @@
 # NSTC Writer 7B
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/erichuang777777/nstc-writer-7b/blob/main/notebooks/NSTC_Writer_7B_Colab.ipynb)
+
 NSTC Writer 7B is a Traditional Chinese research proposal drafting model optimized for Taiwan NSTC-style grant writing workflows.
 
 The model helps draft, rewrite, structure, and polish research proposal content. It should be used as a writing assistant, not as a substitute for domain review, budget validation, institutional compliance checks, or final PI approval.
@@ -14,6 +16,7 @@ The model helps draft, rewrite, structure, and polish research proposal content.
 
 Use Colab if you want the easiest GPU-based demo:
 
+- Click: [Open NSTC Writer 7B in Colab](https://colab.research.google.com/github/erichuang777777/nstc-writer-7b/blob/main/notebooks/NSTC_Writer_7B_Colab.ipynb).
 - Open `notebooks/NSTC_Writer_7B_Colab.ipynb`.
 - The notebook uses `ericeric777777/NSTC-Writer-7B` by default.
 - Keep `LOAD_MODE = "auto"`.

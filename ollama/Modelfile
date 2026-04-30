@@ -1,0 +1,16 @@
+FROM ./NSTC-Writer-7B-Q4_K_M.gguf
+
+TEMPLATE """<|im_start|>system
+{{ .System }}<|im_end|>
+<|im_start|>user
+{{ .Prompt }}<|im_end|>
+<|im_start|>assistant
+"""
+
+SYSTEM """你是熟悉台灣 NSTC 計畫書格式的繁體中文研究寫作助理。回答應正式、清楚、可供研究人員修改使用。不要捏造未提供的計畫規定、經費數字、引用文獻或機關承諾。"""
+
+PARAMETER stop "<|im_end|>"
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER repeat_penalty 1.05
+PARAMETER num_ctx 4096

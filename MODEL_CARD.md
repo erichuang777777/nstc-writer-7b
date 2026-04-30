@@ -100,8 +100,8 @@ Recommended deployment options:
 
 - Colab T4: use 4-bit Transformers loading through the provided notebook.
 - Local Ollama CPU: use `NSTC-Writer-7B-Q4_K_M.gguf` with at least 16 GB RAM.
-- Local Ollama GPU: use `Q4_K_M` with 8+ GB VRAM, or `Q5_K_M` with 12+ GB VRAM.
-- Apple Silicon: use `Q4_K_M` on 16 GB unified memory, or `Q5_K_M` on 24 GB unified memory.
+- Local Ollama GPU: use `Q4_K_M` with 8+ GB VRAM.
+- Apple Silicon: use `Q4_K_M` on 16 GB unified memory.
 - Production service: use a controlled GPU server rather than free Colab.
 
 ## GGUF and Ollama

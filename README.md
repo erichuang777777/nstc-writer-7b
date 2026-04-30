@@ -39,13 +39,10 @@ These are practical recommendations, not strict guarantees. Actual speed depends
 | Colab T4 | HF model with 4-bit loading | T4 16 GB VRAM | Good for demos and single-user drafting |
 | Colab A100/L4 | HF model 16-bit or 4-bit | 24+ GB VRAM recommended | Faster and more stable for longer outputs |
 | Ollama CPU | `Q4_K_M.gguf` | 16 GB system RAM | Works, but slow |
-| Ollama CPU | `Q5_K_M.gguf` | 24 GB system RAM | Better quality, slower and larger |
 | Ollama NVIDIA GPU | `Q4_K_M.gguf` | 8+ GB VRAM, 16+ GB RAM | Usable local inference |
-| Ollama NVIDIA GPU | `Q5_K_M.gguf` | 12+ GB VRAM, 24+ GB RAM | Better local quality |
 | Apple Silicon | `Q4_K_M.gguf` | 16 GB unified memory | Usable on M-series Macs |
-| Apple Silicon | `Q5_K_M.gguf` | 24 GB unified memory | Better quality and stability |
 
-Recommended default for most users:
+Available GGUF file:
 
 ```text
 NSTC-Writer-7B-Q4_K_M.gguf
